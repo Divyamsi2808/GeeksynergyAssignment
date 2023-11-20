@@ -1,0 +1,189 @@
+.sign-in-page {
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+}
+
+
+
+.sign-in-page-main-container {
+    width: 50%;
+    padding: 30px;
+    border-radius: 26px;
+    box-shadow: 2px 2px 4px 4px #daddf5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} 
+
+@media screen and (max-width: 767px) {
+    .sign-in-page-main-container{
+        width: 80%;
+        padding: 14px;
+        border-radius: 18px;
+    }
+
+}
+
+
+.logo-container {
+    display: flex;
+    align-self: center;
+    padding: 14px;
+    align-items: center;
+    margin-bottom: 20px;
+
+}
+
+
+.company-logo {
+    width: 50px;
+}
+
+.company-name {
+    font-size: 30px;
+    font-family: Roboto;
+    font-weight: 600;
+    color: black;
+}
+
+@media screen and (max-width: 767px) {
+    .company-logo {
+        width: 40px;
+    }
+    .company-name {
+        font-size: 20px;
+        font-weight: 600;
+    }
+}
+
+.input-fields-container {
+    display: flex;;
+    flex-direction: column;
+    width: 60%;
+}
+
+.input-field-container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 20px;
+    align-items: center;
+    align-self: center;
+}
+
+.label-element {
+    font-size: 12px;
+    color: #131414;
+    font-weight: 600;
+    padding-left: 4px;
+    padding-bottom: 4px;
+    align-self: flex-start;
+}
+
+.input-field {
+    padding: 10px;
+    border-radius: 12px;
+    width: 100%;
+    font-size: 14px;
+    font-family: Roboto;
+    color: #373836;
+    font-weight: 600;
+    border: 2px solid #2a3036;
+    outline: none;
+}
+
+@media screen and (max-width: 767px) {
+    .input-fields-container {
+        width: 100%;
+    }
+    
+    .label-element {
+        font-size: 12px;
+        font-weight: 600;
+    }
+    .input-field {
+        width: 96%;
+    }
+}
+
+.password-container {
+    width: 100%;
+    border: 2px solid #2a3036;
+    padding: 6px;
+    display: flex;
+    align-items: center;
+    border-radius: 13px;
+}
+
+.password-field {
+    width: 100%;
+    font-size: 14px;
+    font-family: Roboto;
+    color: #373836;
+    font-weight: 600;
+    outline: none;
+    border: none;
+    padding-left: 6px;
+}
+
+.password-status-button {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    align-self: flex-end;
+}
+
+.icon {
+    font-size: 24px;
+}
+
+@media screen and (max-width: 767px) {
+    .password-container {
+        width: 100%;
+    }
+    
+    .password-field {
+        width: 96%;
+    }
+    
+    .password-status-button {
+        background-color: transparent;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        align-self: flex-end;
+    }
+
+    .icon {
+        font-size: 20px;
+    }
+}
+
+.signup-submit-button {
+    border: none;
+    outline: none;
+    background-color: #33a6e8;
+    font-size: 20px;
+    font-family: Roboto;
+    font-weight: 400;
+    color: #ffffff;
+    padding: 12px;
+    border-radius: 14px;
+}
+
+@media screen and (max-width: 767px ) {
+    .signup-submit-button {
+        font-size: 14px;
+    }
+}
+
+.error-msg {
+    color: red;
+    font-size: 16px;
+    font-weight: 500;
+}

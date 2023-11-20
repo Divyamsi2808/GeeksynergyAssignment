@@ -1,0 +1,11 @@
+.sign-in-page {
+    height: 100vh;
+    background-color: black;
+    background-size: cover;
+    display: flex;
+
+}
+
+.link-element {
+    text-decoration: none;
+}
