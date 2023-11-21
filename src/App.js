@@ -12,7 +12,6 @@ function App() {
       <Route exact path = "/" component = {MoviesTab}/>
       <Route exact path = "/login" component = {LoginPage}/>
       <Route exact path = "/signup" component = {SignUp}/>
-      
     </Switch>
     </BrowserRouter>
   )

@@ -1,5 +1,4 @@
 import {useState} from "react"
-import {  Link } from 'react-router-dom';
 import { BiHide,BiShow  } from "react-icons/bi";
 
 import "./index.css";
@@ -139,16 +138,17 @@ const SignUp = () => {
                 onChangeErrorMsg("username alredy Exits")
             }else{
                 localStorage.setItem("userList", JSON.stringify([newObj,...userList]));
+                onChangeEmail("");
+                onChangeMobileNumber("");
+                onChangePassword("");
+                onChangeUserName("");
+                onChangeProfession("Digital Marketing Executive");
+                onChangeErrorMsg("");
                 window.location.href = '/'
             }
         }
 
-        onChangeEmail("");
-        onChangeMobileNumber("");
-        onChangePassword("");
-        onChangeUserName("");
-        onChangeProfession("Digital Marketing Executive")
-        onChangeErrorMsg("");
+        
     }
 
     return (
@@ -186,11 +186,9 @@ const SignUp = () => {
                 </button>
                 <p>
                     if you have account please&nbsp;
-                <Link to = "/login" className = "link-element">
-                    <span>
-                    Login 
-                    </span>
-                </Link>
+                    <a href="/login" className="link-element ">
+                        Login
+                    </a>
                 &nbsp;to Your account
                 </p>
                 <p className="error-msg">

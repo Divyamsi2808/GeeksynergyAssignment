@@ -97,11 +97,9 @@ const LoginPage = () => {
                 </button>
                 <p>
                     if you don't have account please&nbsp;
-                <Link to = "/signup" className = "link-element">
-                    <span>
-                    Signup
-                    </span>
-                </Link>
+                    <a href="/signup" className="link-element ">
+                        Signup
+                    </a>
                 </p>
                 
                 <p className="error-msg">
