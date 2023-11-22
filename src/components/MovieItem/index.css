@@ -113,19 +113,19 @@
     }
 
     .poster-img{
-        width: 20%;
+        width: 100px;
     }
 
     .movie-title {
-        font-size: 18px;
+        font-size: 16px;
     }
     
     .info-para {
-        font-size: 14px;
+        font-size: 12px;
     }
     
     .movie-properties {
-        font-size: 16px;
+        font-size: 14px;
     }
     
     .date-para {
@@ -133,10 +133,10 @@
     }
     
     .views-para {
-        font-size: 14px;
+        font-size: 13px;
     }
     
     .trailer-btn {
-        font-size: 16px;
+        font-size: 14px;
     }
 }

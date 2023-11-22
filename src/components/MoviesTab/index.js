@@ -42,9 +42,19 @@ const MoviesTab = () => {
 
       const renderSidebar = () => (
         <div className="side-bar">
-          <h1>
-            Movies Tab
-          </h1>
+          <div className = "logo-container">
+                <img
+                src = "https://res.cloudinary.com/dxaugnoxj/image/upload/v1700280207/samples/geeksynergy-removebg-preview_t1r4mq.png"
+                alt = "company logo"
+                className = "company-logo"
+                />
+                <span className = "company-name">
+                &nbsp;Geeksynergy
+                </span>
+                </div>
+            <button type="button" className="tab-button">
+              Movies Tab
+            </button>
           <ul className="company-details">
             <li className="company-details-heading">
               Company: <span className="company-details-para">

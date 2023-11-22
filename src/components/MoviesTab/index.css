@@ -16,9 +16,22 @@
 
 
 .company-details {
-    margin-top: 370px;
-    padding: 0px;
+    margin-top: 350px;
+    padding: 10px;
     list-style-type: none;
+}
+
+.tab-button {
+    border: 2px solid #453737;
+    outline: none;
+    cursor: pointer;
+    font-size: 20px;
+    font-family: Roboto;
+    font-weight: 600;
+    background-color: transparent;
+    padding: 10px;
+    border-radius: 10px;
+    width: 80%;
 }
 
 .company-details-heading {
